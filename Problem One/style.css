@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(214, 225, 240);
+}
+
+img{
+    width: 275px;
+    height: 275px;
+    border-radius: 10px;
+}
+
+.bigText{
+    color: hsl(218, 44%, 22%);
+    font-size: 20px;
+    padding: 30px;
+    margin-top: 275px;
+    font-family: "Outfit", serif;
+    font-weight: 800;
+    text-align: center;
+}
+
+.smallText{
+    color: black;
+    font-size:15px;
+    margin-top: -50px;
+    font-family: "Outfit", serif;
+    padding: 30px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.OuterBox{
+    min-height: 50vh;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+    background-color:white;
+    color: hsl(218, 44%, 22%);
+    border-radius: 15px;
+    position: absolute;
+}
+
+.InnerBox{
+    min-height: 28vh; 
+    width: 275px;
+    height: 150px;
+    background-color: #2b7efa;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 15px;
+}
